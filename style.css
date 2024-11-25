@@ -8,8 +8,9 @@
 }
 
 body {
-    background-color: black;
+    background-color: #001f3d; /* Midnight Blue */
     color: rgb(255, 255, 255);
+}
 }
 html {
     scroll-behavior: smooth;
