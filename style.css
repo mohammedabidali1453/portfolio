@@ -8,9 +8,8 @@
 }
 
 body {
-    background-color: #001f3d; /* Midnight Blue */
-    color: rgb(255, 255, 255);
-}
+     background: linear-gradient(135deg, #0a3d0a, #001a00); /* Dark Green to Black Gradient */
+    color: rgb(255, 255, 255); /* White text for contrast */
 }
 html {
     scroll-behavior: smooth;
