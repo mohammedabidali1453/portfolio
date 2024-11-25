@@ -215,29 +215,14 @@ html {
     filter: blur(10px);
 }
 
-/* .image img {
+.image img {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%);
     max-width: 350px;
     object-fit: cover;
-} */
-
-.image img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    max-width: 350px; /* Set the max width */
-    max-height: 350px; /* Set the max height */
-    width: 100%; /* Ensure image scales within the max-width */
-    height: 100%; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure it covers the area */
 }
-
-
 
 .glowing-circle .image {
     position: relative;
