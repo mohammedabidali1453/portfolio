@@ -8,9 +8,12 @@
 }
 
 body {
-     background: linear-gradient(135deg, #0a3d0a, #001a00); /* Dark Green to Black Gradient */
-    color: rgb(255, 255, 255); /* White text for contrast */
+    /* background-color: black;
+    color: rgb(255, 255, 255); */
+    background-color: #001f3d; /* Midnight Blue */
+    color: rgb(255, 255, 255);
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -260,6 +263,22 @@ canvas {
     background-size: auto;
     scroll-behavior: smooth;
 }
+
+.tagline {
+    font-size: 1.5rem; /* Adjust size as per your preference */
+    font-weight: 400; /* Clean text appearance */
+    text-align: center; /* Center align the text */
+    color: transparent; /* Hide fallback color */
+    background: linear-gradient(90deg, #32CD32, #00CED1); /* Light green -> aqua green */
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* WebKit-specific property */
+    -webkit-text-fill-color: transparent; /* Ensure text is transparent */
+}
+
+
+
+
+
 
 
 /* ---------------------------About----------------------- */
